@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="AO$rwjl0fE5,6rC5YvA$">mySprite</variable><variable type="KIND_SpriteKind" id="gV1^b5(Ik15A~mGkc?*L">Player</variable><variable type="KIND_SpriteKind" id="fv_GKNC_*EP%/.5%~tjf">Projectile</variable><variable type="KIND_SpriteKind" id="F^Kv=FBU(H]@H-LJ+5vi">Food</variable><variable type="KIND_SpriteKind" id="+Iig5=cW=4`0)pk2iZ+m">Enemy</variable></variables><block type="pxt-on-start" id="V_._w9UQ_mm=Ej]2q2S4" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="[d/T`ck^@c|w`JRSDg/Q"><field name="VAR" id="AO$rwjl0fE5,6rC5YvA$">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="|ThNU$|u6.v;KSs2J;l%"><value name="img"><shadow type="screen_image_picker" id="XGG3t)^@X(HR1T?9!Nk#"><field name="img">img`
+777777777777........
+.7777777777777......
+..77777777777777....
+..7777777777777777..
+..777ffffffffff777..
+..7ffccccccccccff7..
+..7fccccccccccccf7..
+..7fccccccccccccf77.
+..7fccccccccccccf77.
+.77fddddddddddddf77.
+.77fddddd3ddddddf77.
+..7fddddddddddddf77.
+..777777dddd7777777.
+...777777dd77.7777..
+.......777777.......
+.....7777777777.....
+...77777777777777...
+..77777777777777777.
+.777777777777777777.
+.777777777777777777.
+.77..77777777777.77.
+.77...777777777..77.
+.dd...777777777.ddd.
+ddd...777777777ddddd
+.ddd.77777.7777.d.d.
+d.d..77777..777.....
+...77dddd7.7ddd77...
+...7777777.7777777..
+...7777777.7777777..
+`</field><data>{"commentRefs":[],"fieldData":{"img":"XGG3t)^@X(HR1T?9!Nk#"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="U7lY!S{RR/D,x9kJ6N/?"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="[a8Y*#803E?Xs?A(umfR"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="95]I_|:,f@@.93us1?,u"><field name="VAR" id="AO$rwjl0fE5,6rC5YvA$">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="F,rrd(!_LYHyPAx||o,U"><field name="NUM">509</field></shadow></value><value name="vy"><shadow type="math_number" id="fuqGk9WMSiKk*_?A|l]9"><field name="NUM">509</field></shadow></value><next><block type="tilemap_editor" id="c55A*#3%bxdom18gwH`]"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></block></next></block></next></block></statement></block></xml>
